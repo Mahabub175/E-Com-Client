@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@nuxt/image": "^1.8.1",
+    "@pinia/nuxt": "^0.5.5",
+    "@stripe/stripe-js": "^4.9.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vueuse/core": "^11.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "embla-carousel-vue": "^8.3.0",
+    "jspdf": "^2.5.2",
+    "lucide-vue-next": "^0.447.0",
+    "nuxt": "^3.13.0",
+    "nuxt-swiper": "^1.2.2",
+    "pinia": "^2.2.4",
+    "radix-vue": "^1.9.6",
+    "shadcn-nuxt": "^0.10.4",
+    "stripe": "^17.2.1",
+    "swiper": "^11.1.14",
+    "tailwind-merge": "^2.5.3",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2"
+  }
+}
